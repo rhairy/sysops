@@ -1,5 +1,6 @@
 import dotenv
-from aws_cdk import Environment
+from aws_cdk import App, Environment, Stack
+from sysops.sysops_stack import SysopsStack
 
 def get_config() -> dict:
     config = dotenv.dotenv_values()
@@ -14,3 +15,10 @@ def get_config() -> dict:
 def get_env() -> Environment:
     env = get_config()
     return Environment(account=env['AWS_ACCOUNT_ID'], region=env['AWS_REGION'])
+
+def stack_factory(construct: App, stack_type: str) -> Stack:
+    config = get_config()
+    env = get_env()
+
+    if stack_type == "sysops":
+        return SysopsStack(construct, "sysops-stack", config, env=env)
