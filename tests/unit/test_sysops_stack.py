@@ -9,3 +9,4 @@ def test_sysops_stack():
 
     template.resource_count_is("AWS::Logs::LogGroup", 1)
     template.resource_count_is("AWS::EC2::Instance", 1)
+    template.resource_count_is("AWS::IAM::Role", 1)
