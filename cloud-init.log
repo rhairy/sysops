@@ -1,0 +1,593 @@
+InstanceId: i-09e73ee9e40c9f948
+Output: "[    2.267428] Freeing unused decrypted memory: 2036K\r\n[    2.272154] Freeing
+  unused kernel image (initmem) memory: 2460K\r\n[    2.277018] Write protecting the
+  kernel read-only data: 22528k\r\n[    2.282203] Freeing unused kernel image (text/rodata
+  gap) memory: 2032K\r\n[    2.287660] Freeing unused kernel image (rodata/data gap)
+  memory: 200K\r\n[    2.293073] Run /init as init process\r\n[    2.299539] systemd[1]:
+  systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK
+  +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 -SECCOMP +BLKID +ELFUTILS
+  +KMOD +IDN)\r\n[    2.312759] systemd[1]: Detected virtualization xen.\r\n[    2.317162]
+  systemd[1]: Detected architecture x86-64.\r\n[    2.321403] systemd[1]: Running
+  in initial RAM disk.\r\n\r\nWelcome to \e[0;34mAmazon Linux 2 dracut-033-535.amzn2.1.6
+  (Initramfs)\e[0m!\r\n\r\n[    2.330429] systemd[1]: No hostname configured.\r\n[
+  \   2.334745] systemd[1]: Set hostname to <localhost>.\r\n[    2.341301] systemd[1]:
+  Initializing machine ID from random generator.\r\n[    2.375193] systemd[1]: Reached
+  target Timers.\r\n[\e[32m  OK  \e[0m] Reached target Timers.\r\n[    2.381140] systemd[1]:
+  Reached target Swap.\r\n[\e[32m  OK  \e[0m] Reached target Swap.\r\n[    2.386874]
+  systemd[1]: Reached target Local File Systems.\r\n[\e[32m  OK  \e[0m] Reached target
+  Local File Systems.\r\n[\e[32m  OK  \e[0m] Started Dispatch Password Requests to
+  Console Directory Watch.\r\n[\e[32m  OK  \e[0m] Reached target Paths.\r\n[\e[32m
+  \ OK  \e[0m] Created slice Root Slice.\r\n[\e[32m  OK  \e[0m] Listening on udev
+  Kernel Socket.\r\n[\e[32m  OK  \e[0m] Listening on udev Control Socket.\r\n[\e[32m
+  \ OK  \e[0m] Listening on Journal Socket.\r\n[\e[32m  OK  \e[0m] Reached target
+  Sockets.\r\n[\e[32m  OK  \e[0m] Created slice System Slice.\r\n         Starting
+  Journal Service...\r\n[\e[32m  OK  \e[0m] Reached target Slices.\r\n         Starting
+  Apply Kernel Variables...\r\n         Starting Create list of required st... nodes
+  for the current kernel...\r\n[\e[32m  OK  \e[0m] Started Journal Service.\r\n[\e[32m
+  \ OK  \e[0m] Started Apply Kernel Variables.\r\n[\e[32m  OK  \e[0m] Started Create
+  list of required sta...ce nodes for the current kernel.\r\n         Starting Create
+  Static Device Nodes in /dev...\r\n[\e[32m  OK  \e[0m] Started Create Static Device
+  Nodes in /dev.\r\n         Starting udev Kernel Device Manager...\r\n[\e[32m  OK
+  \ \e[0m] Started udev Kernel Device Manager.\r\n         Starting dracut pre-trigger
+  hook...\r\n[\e[32m  OK  \e[0m] Started dracut pre-trigger hook.\r\n         Starting
+  udev Coldplug all Devices...\r\n[\e[32m  OK  \e[0m] Started udev Coldplug all Devices.\r\n[\e[32m
+  \ OK  \e[0m] Reached target System Initialization.\r\n[\e[32m  OK  \e[0m] Reached
+  target Basic System.\r\n         Starting dracut initqueue hook...\r\n[    2.672056]
+  SCSI subsystem initialized\r\n[\e[32m  OK  \e[0m] Found device /dev/disk/by-uuid/96ae351c-b863-4ca5-97a6-fb85f2165188.\r\n[
+  \   2.691659] scsi host0: ata_piix\r\n         Starting File System Check on /dev/...c-b863-4ca5-97a6-fb85f2165188...\r\n[
+  \   2.701729] scsi host1: ata_piix\r\n[    2.704979] ata1: PATA max MWDMA2 cmd 0x1f0
+  ctl 0x3f6 bmdma 0xc100 irq 14\r\n[    2.710587] ata2: PATA max MWDMA2 cmd 0x170
+  ctl 0x376 bmdma 0xc108 irq 15\r\n[\e[32m  OK  \e[0m] Started File System Check on
+  /dev/d...51c-b863-4ca5-97a6-fb85f2165188.\r\n[\e[32m  OK  \e[0m] Started dracut
+  initqueue hook.\r\n[\e[32m  OK  \e[0m] Reached target Remote File Systems (Pre).\r\n[\e[32m
+  \ OK  \e[0m] Reached target Remote File Systems.\r\n         Mounting /sysroot...\r\n[
+  \   2.929022] XFS (xvda1): Mounting V5 Filesystem\r\n[    3.149372] XFS (xvda1):
+  Ending clean mount\r\n[\e[32m  OK  \e[0m] Mounted /sysroot.\r\n[\e[32m  OK  \e[0m]
+  Reached target Initrd Root File System.\r\n         Starting Reload Configuration
+  from the Real Root...\r\n[\e[32m  OK  \e[0m] Started Reload Configuration from the
+  Real Root.\r\n[\e[32m  OK  \e[0m] Reached target Initrd File Systems.\r\n[\e[32m
+  \ OK  \e[0m] Reached target Initrd Default Target.\r\n         Starting dracut pre-pivot
+  and cleanup hook...\r\n[\e[32m  OK  \e[0m] Started dracut pre-pivot and cleanup
+  hook.\r\n         Starting Cleaning Up and Shutting Down Daemons...\r\n[\e[32m  OK
+  \ \e[0m] Started Cleaning Up and Shutting Down Daemons.\r\n[\e[32m  OK  \e[0m] Stopped
+  target Timers.\r\n[\e[32m  OK  \e[0m] Stopped dracut pre-pivot and cleanup hook.\r\n[\e[32m
+  \ OK  \e[0m] Stopped target Initrd Default Target.\r\n[\e[32m  OK  \e[0m] Stopped
+  target Basic System.\r\n[\e[32m  OK  \e[0m] Stopped target Sockets.\r\n[\e[32m  OK
+  \ \e[0m] Stopped target System Initialization.\r\n[\e[32m  OK  \e[0m] Stopped target
+  Swap.\r\n[\e[32m  OK  \e[0m] Stopped target Local File Systems.\r\n[\e[32m  OK  \e[0m]
+  Stopped Apply Kernel Variables.\r\n[\e[32m  OK  \e[0m] Stopped target Slices.\r\n[\e[32m
+  \ OK  \e[0m] Stopped target Remote File Systems.\r\n[\e[32m  OK  \e[0m] Stopped
+  target Remote File Systems (Pre).\r\n[\e[32m  OK  \e[0m] Stopped dracut initqueue
+  hook.\r\n[\e[32m  OK  \e[0m] Stopped udev Coldplug all Devices.\r\n[\e[32m  OK  \e[0m]
+  Stopped dracut pre-trigger hook.\r\n         Stopping udev Kernel Device Manager...\r\n[\e[32m
+  \ OK  \e[0m] Stopped target Paths.\r\n[\e[32m  OK  \e[0m] Stopped Dispatch Password
+  Requests to Console Directory Watch.\r\n[\e[32m  OK  \e[0m] Stopped udev Kernel
+  Device Manager.\r\n[\e[32m  OK  \e[0m] Stopped Create Static Device Nodes in /dev.\r\n[\e[32m
+  \ OK  \e[0m] Stopped Create list of required sta...ce nodes for the current kernel.\r\n[\e[32m
+  \ OK  \e[0m] Closed udev Kernel Socket.\r\n[\e[32m  OK  \e[0m] Closed udev Control
+  Socket.\r\n         Starting Cleanup udevd DB...\r\n[\e[32m  OK  \e[0m] Started
+  Cleanup udevd DB.\r\n[\e[32m  OK  \e[0m] Reached target Switch Root.\r\n         Starting
+  Switch Root...\r\n[    3.390764] systemd-journald[1025]: Received SIGTERM from PID
+  1 (systemd).\r\n[    3.408244] printk: systemd: 13 output lines suppressed due to
+  ratelimiting\r\n[    3.480613] SELinux:  Runtime disable is deprecated, use selinux=0
+  on the kernel cmdline.\r\n[    3.489070] SELinux:  Disabled at runtime.\r\n[    3.501310]
+  audit: type=1404 audit(1697049645.920:2): enforcing=0 old_enforcing=0 auid=4294967295
+  ses=4294967295 enabled=0 old-enabled=1 lsm=selinux res=1\r\n\r\nWelcome to \e[0;33mAmazon
+  Linux 2\e[0m!\r\n\r\n[\e[32m  OK  \e[0m] Stopped Switch Root.\r\n[\e[32m  OK  \e[0m]
+  Stopped Journal Service.\r\n         Starting Journal Service...\r\n         Mounting
+  Huge Pages File System...\r\n[\e[32m  OK  \e[0m] Listening on udev Kernel Socket.\r\n[\e[32m
+  \ OK  \e[0m] Created slice system-getty.slice.\r\n         Mounting Debug File System...\r\n[\e[32m
+  \ OK  \e[0m] Listening on LVM2 poll daemon socket.\r\n[\e[32m  OK  \e[0m] Created
+  slice system-serial\\x2dgetty.slice.\r\n[\e[32m  OK  \e[0m] Listening on Device-mapper
+  event daemon FIFOs.\r\n[\e[32m  OK  \e[0m] Listening on Delayed Shutdown Socket.\r\n[\e[32m
+  \ OK  \e[0m] Started Forward Password Requests to Wall Directory Watch.\r\n[\e[32m
+  \ OK  \e[0m] Created slice system-selinux\\x2dpol...grate\\x2dlocal\\x2dchanges.slice.\r\n
+  \        Starting Read and set NIS domainname from /etc/sysconfig/network...\r\n[\e[32m
+  \ OK  \e[0m] Listening on /dev/initctl Compatibility Named Pipe.\r\n[\e[32m  OK
+  \ \e[0m] Reached target Swap.\r\n[\e[32m  OK  \e[0m] Created slice User and Session
+  Slice.\r\n         Starting Create list of required st... nodes for the current
+  kernel...\r\n         Mounting POSIX Message Queue File System...\r\n         Starting
+  Remount Root and Kernel File Systems...\r\n[\e[32m  OK  \e[0m] Listening on udev
+  Control Socket.\r\n[\e[32m  OK  \e[0m] Listening on LVM2 metadata daemon socket.\r\n
+  \        Starting Monitoring of LVM2 mirrors... dmeventd or progress polling...\r\n[\e[32m
+  \ OK  \e[0m] Reached target Slices.\r\n[\e[32m  OK  \e[0m] Stopped target Switch
+  Root.\r\n         Starting Setup Virtual Console...\r\n[    3.907139] xfs filesystem
+  being remounted at / supports timestamps until 2038 (0x7fffffff)\r\n[\e[32m  OK
+  \ \e[0m] Stopped target Initrd Root File System.\r\n[\e[32m  OK  \e[0m] Stopped
+  target Initrd File Systems.\r\n[\e[32m  OK  \e[0m] Set up automount Arbitrary Executab...ats
+  File System Automount Point.\r\n[\e[32m  OK  \e[0m] Mounted Debug File System.\r\n[\e[32m
+  \ OK  \e[0m] Mounted POSIX Message Queue File System.\r\n[\e[32m  OK  \e[0m] Mounted
+  Huge Pages File System.\r\n[\e[32m  OK  \e[0m] Started Journal Service.\r\n[\e[32m
+  \ OK  \e[0m] Started Read and set NIS domainname from /etc/sysconfig/network.\r\n[\e[32m
+  \ OK  \e[0m] Started Create list of required sta...ce nodes for the current kernel.\r\n[\e[32m
+  \ OK  \e[0m] Started Remount Root and Kernel File Systems.\r\n[\e[32m  OK  \e[0m]
+  Started Setup Virtual Console.\r\n         Starting Load Kernel Modules...\r\n         Starting
+  Rebuild Hardware Database...\r\n         Starting Configure read-only root support...\r\n
+  \        Starting Create Static Device Nodes in /dev...\r\n         Starting Flush
+  Journal to Persistent Storage...\r\n[\e[32m  OK  \e[0m] Started Load Kernel Modules.\r\n[\e[32m
+  \ OK  \e[0m] Started Configure read-only root support.\r\n[\e[32m  OK  \e[0m] Started
+  Create Static Device Nodes in /dev.\r\n[    4.045419] systemd-journald[1778]: Received
+  request to flush runtime journal from PID 1\r\n         Starting udev Kernel Device
+  Manager...\r\n[\e[32m  OK  \e[0m] Started LVM2 metadata daemon.\r\n         Starting
+  Load/Save Random Seed...\r\n         Starting Apply Kernel Variables...\r\n[\e[32m
+  \ OK  \e[0m] Started Load/Save Random Seed.\r\n[\e[32m  OK  \e[0m] Started Apply
+  Kernel Variables.\r\n[\e[32m  OK  \e[0m] Started udev Kernel Device Manager.\r\n[\e[32m
+  \ OK  \e[0m] Started Flush Journal to Persistent Storage.\r\n[\e[32m  OK  \e[0m]
+  Started Rebuild Hardware Database.\r\n         Starting udev Coldplug all Devices...\r\n[
+  \   4.422573] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3\r\n[\e[32m
+  \ OK  \e[0m] Started udev Coldplug all Devices.\r\n         Starting Show Plymouth
+  Boot Screen...\r\n         Starting udev Wait for Complete Device Initialization...\r\n[
+  \   4.481341] ACPI: Power Button [PWRF]\r\n[    4.485141] input: Sleep Button as
+  /devices/LNXSYSTM:00/LNXSLPBN:00/input/input4\r\n[\e[32m  OK  \e[0m] Started Show
+  Plymouth Boot Screen.\r\r\n[\e[32m  OK  \e[0m] Started Forward Password Requests
+  to Plymouth Directory Watch.\r\r\n[    4.535175] ACPI: Sleep Button [SLPF]\r\n[
+  \   4.571787] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5\r\n[
+  \   4.600439] cryptd: max_cpu_qlen set to 1000\r\n[    4.608778] AVX2 version of
+  gcm_enc/dec engaged.\r\n[    4.608778] AES CTR mode by8 optimization enabled\r\n[
+  \   4.619587] mousedev: PS/2 mouse device common for all mice\r\n[\e[32m  OK  \e[0m]
+  Found device /dev/ttyS0.\r\r\n[\e[32m  OK  \e[0m] Created slice system-ec2net\\x2difup.slice.\r\r\n\e%G[\e[32m
+  \ OK  \e[0m] Found device /sys/subsystem/net/devices/eth0.\r\r\n[\e[32m  OK  \e[0m]
+  Started udev Wait for Complete Device Initialization.\r\r\n         Starting Activation
+  of DM RAID sets...\r\r\n[    4.718694] device-mapper: uevent: version 1.0.3\r\n[
+  \   4.722753] device-mapper: ioctl: 4.43.0-ioctl (2020-10-01) initialised: dm-devel@redhat.com\r\n[\e[32m
+  \ OK  \e[0m] Started Activation of DM RAID sets.\r\r\n[\e[32m  OK  \e[0m] Reached
+  target Local Encrypted Volumes.\r\r\n[\e[32m  OK  \e[0m] Started Monitoring of LVM2
+  mirrors,...ng dmeventd or progress polling.\r\r\n[\e[32m  OK  \e[0m] Reached target
+  Local File Systems (Pre).\r\r\n[\e[32m  OK  \e[0m] Reached target Local File Systems.\r\r\n
+  \        Starting Tell Plymouth To Write Out Runtime Data...\r\r\n         Starting
+  Commit a transient machine-id on disk...\r\r\n         Starting Mark the need to
+  relabel after reboot...\r\r\n         Starting Rebuild Journal Catalog...\r\r\n
+  \        Starting Create Volatile Files and Directories...\r\r\n         Starting
+  Preprocess NFS configuration...\r\r\n[\e[32m  OK  \e[0m] Started Commit a transient
+  machine-id on disk.\r\r\n[\e[32m  OK  \e[0m] Started Mark the need to relabel after
+  reboot.\r\r\n[\e[32m  OK  \e[0m] Started Preprocess NFS configuration.\r\r\n[\e[32m
+  \ OK  \e[0m] Started Rebuild Journal Catalog.\r\r\n         Starting Update is Completed...\r\r\n[\e[32m
+  \ OK  \e[0m] Started Create Volatile Files and Directories.\r\r\n         Starting
+  Security Auditing Service...\r\r\n         Mounting RPC Pipe File System...\r\r\n[\e[32m
+  \ OK  \e[0m] Started Update is Completed.\r\r\n[\e[32m  OK  \e[0m] Started Tell
+  Plymouth To Write Out Runtime Data.\r\r\n[    4.940797] RPC: Registered named UNIX
+  socket transport module.\r\n[    4.945765] RPC: Registered udp transport module.\r\n[
+  \   4.949409] RPC: Registered tcp transport module.\r\n[    4.953452] RPC: Registered
+  tcp NFSv4.1 backchannel transport module.\r\n[\e[32m  OK  \e[0m] Mounted RPC Pipe
+  File System.\r\r\n[\e[32m  OK  \e[0m] Reached target rpc_pipefs.target.\r\r\n[\e[32m
+  \ OK  \e[0m] Started Security Auditing Service.\r\r\n         Starting Update UTMP
+  about System Boot/Shutdown...\r\r\n[\e[32m  OK  \e[0m] Started Update UTMP about
+  System Boot/Shutdown.\r\r\n[\e[32m  OK  \e[0m] Reached target System Initialization.\r\r\n[\e[32m
+  \ OK  \e[0m] Started Flexible branding.\r\r\n[\e[32m  OK  \e[0m] Reached target
+  Paths.\r\r\n[\e[32m  OK  \e[0m] Started Daily Cleanup of Temporary Directories.\r\r\n[\e[32m
+  \ OK  \e[0m] Reached target Timers.\r\r\n[\e[32m  OK  \e[0m] Listening on RPCbind
+  Server Activation Socket.\r\r\n[    5.052535] xfs filesystem being remounted at
+  /tmp supports timestamps until 2038 (0x7fffffff)\r\n[    5.125995] xfs filesystem
+  being remounted at /var/tmp supports timestamps until 2038 (0x7fffffff)\r\n         Starting
+  RPC bind service...\r\r\n[\e[32m  OK  \e[0m] Listening on D-Bus System Message Bus
+  Socket.\r\r\n[\e[32m  OK  \e[0m] Reached target Sockets.\r\r\n[\e[32m  OK  \e[0m]
+  Reached target Basic System.\r\r\n         Starting NTP client/server...\r\r\n         Starting
+  Initial cloud-init job (pre-networking)...\r\r\n         Starting Hardware RNG Entropy
+  Gatherer Wake threshold service...\r\r\n[\e[32m  OK  \e[0m] Started libstoragemgmt
+  plug-in server daemon.\r\r\n         Starting Login Service...\r\r\n[\e[32m  OK
+  \ \e[0m] Started irqbalance daemon.\r\r\n         Starting Resets System Activity
+  Logs...\r\r\n         Starting Dump dmesg to /var/log/dmesg...\r\r\n         Starting
+  ACPI Event Daemon...\r\r\n         Starting GSSAPI Proxy Daemon...\r\r\n[\e[32m
+  \ OK  \e[0m] Started D-Bus System Message Bus.\r\r\n[\e[32m  OK  \e[0m] Started
+  RPC bind service.\r\r\n[\e[32m  OK  \e[0m] Started Hardware RNG Entropy Gatherer
+  Wake threshold service.\r\r\n[\e[32m  OK  \e[0m] Started Resets System Activity
+  Logs.\r\r\n[\e[32m  OK  \e[0m] Started Dump dmesg to /var/log/dmesg.\r\r\n[\e[32m
+  \ OK  \e[0m] Started ACPI Event Daemon.\r\r\n[\e[32m  OK  \e[0m] Started GSSAPI
+  Proxy Daemon.\r\r\n[\e[32m  OK  \e[0m] Started Login Service.\r\r\n[\e[32m  OK  \e[0m]
+  Reached target NFS client services.\r\r\n[\e[32m  OK  \e[0m] Reached target Remote
+  File Systems (Pre).\r\r\n[\e[32m  OK  \e[0m] Reached target Remote File Systems.\r\r\n[\e[32m
+  \ OK  \e[0m] Started Hardware RNG Entropy Gatherer Daemon.\r\r\n[\e[32m  OK  \e[0m]
+  Started NTP client/server.\r\r\n[    5.239698] cloud-init[2619]: Cloud-init v. 19.3-46.amzn2.0.1
+  running 'init-local' at Wed, 11 Oct 2023 18:40:48 +0000. Up 5.20 seconds.\r\r\n[\e[32m
+  \ OK  \e[0m] Started Initial cloud-init job (pre-networking).\r\r\n[\e[32m  OK  \e[0m]
+  Reached target Network (Pre).\r\r\n         Starting LSB: Bring up/down networking...\r\r\n[\e[32m
+  \ OK  \e[0m] Started LSB: Bring up/down networking.\r\r\n         Starting Initial
+  cloud-init job (metadata service crawler)...\r\r\n[\e[32m  OK  \e[0m] Reached target
+  Network.\r\r\n         Starting Postfix Mail Transport Agent...\r\r\n[    6.344427]
+  cloud-init[2973]: Cloud-init v. 19.3-46.amzn2.0.1 running 'init' at Wed, 11 Oct
+  2023 18:40:49 +0000. Up 6.28 seconds.\r\r\n[    6.372074] cloud-init[2973]: ci-info:
+  ++++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++\r\r\n[
+  \   6.372289] cloud-init[2973]: ci-info: +--------+------+----------------------------+---------------+--------+-------------------+\r\r\n[
+  \   6.372403] cloud-init[2973]: ci-info: | Device |  Up  |          Address           |
+  \     Mask     | Scope  |     Hw-Address    |\r\r\n[    6.372517] cloud-init[2973]:
+  ci-info: +--------+------+----------------------------+---------------+--------+-------------------+\r\r\n[
+  \   6.372627] cloud-init[2973]: ci-info: |  eth0  | True |        10.250.2.51         |
+  255.255.255.0 | global | 02:88:ec:7b:64:b9 |\r\r\n[    6.372731] cloud-init[2973]:
+  ci-info: |  eth0  | True | fe80::88:ecff:fe7b:64b9/64 |       .       |  link  |
+  02:88:ec:7b:64:b9 |\r\r\n[    6.372834] cloud-init[2973]: ci-info: |   lo   | True
+  |         127.0.0.1          |   255.0.0.0   |  host  |         .         |\r\r\n[
+  \   6.372942] cloud-init[2973]: ci-info: |   lo   | True |          ::1/128           |
+  \      .       |  host  |         .         |\r\r\n[    6.373048] cloud-init[2973]:
+  ci-info: +--------+------+----------------------------+---------------+--------+-------------------+\r\r\n[
+  \   6.373164] cloud-init[2973]: ci-info: +++++++++++++++++++++++++++++++Route IPv4
+  info++++++++++++++++++++++++++++++++\r\r\n[    6.373281] cloud-init[2973]: ci-info:
+  +-------+-----------------+------------+-----------------+-----------+-------+\r\r\n[
+  \   6.373404] cloud-init[2973]: ci-info: | Route |   Destination   |  Gateway   |
+  \    Genmask     | Interface | Flags |\r\r\n[    6.373515] cloud-init[2973]: ci-info:
+  +-------+-----------------+------------+-----------------+-----------+-------+\r\r\n[
+  \   6.373634] cloud-init[2973]: ci-info: |   0   |     0.0.0.0     | 10.250.2.1
+  |     0.0.0.0     |    eth0   |   UG  |\r\r\n[    6.373748] cloud-init[2973]: ci-info:
+  |   1   |    10.250.2.0   |  0.0.0.0   |  255.255.255.0  |    eth0   |   U   |\r\r\n[
+  \   6.373867] cloud-init[2973]: ci-info: |   2   | 169.254.169.254 |  0.0.0.0   |
+  255.255.255.255 |    eth0   |   UH  |\r\r\n[    6.373986] cloud-init[2973]: ci-info:
+  +-------+-----------------+------------+-----------------+-----------+-------+\r\r\n[
+  \   6.374083] cloud-init[2973]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++\r\r\n[
+  \   6.374190] cloud-init[2973]: ci-info: +-------+-------------+---------+-----------+-------+\r\r\n[
+  \   6.374295] cloud-init[2973]: ci-info: | Route | Destination | Gateway | Interface
+  | Flags |\r\r\n[    6.374397] cloud-init[2973]: ci-info: +-------+-------------+---------+-----------+-------+\r\r\n[
+  \   6.374500] cloud-init[2973]: ci-info: |   9   |  fe80::/64  |    ::   |    eth0
+  \  |   U   |\r\r\n[    6.374598] cloud-init[2973]: ci-info: |   11  |    local    |
+  \   ::   |    eth0   |   U   |\r\r\n[    6.374723] cloud-init[2973]: ci-info: |
+  \  12  |  multicast  |    ::   |    eth0   |   U   |\r\r\n[    6.374836] cloud-init[2973]:
+  ci-info: +-------+-------------+---------+-----------+-------+\r\r\n[\e[32m  OK
+  \ \e[0m] Started Postfix Mail Transport Agent.\r\r\n         Starting Hostname Service...\r\r\n[
+  \   7.701165] xfs filesystem being remounted at /tmp supports timestamps until 2038
+  (0x7fffffff)\r\n[    7.714868] xfs filesystem being remounted at /var/tmp supports
+  timestamps until 2038 (0x7fffffff)\r\n[\e[32m  OK  \e[0m] Started Hostname Service.\r\r\n[\e[32m
+  \ OK  \e[0m] Started Initial cloud-init job (metadata service crawler).\r\r\n[\e[32m
+  \ OK  \e[0m] Reached target Cloud-config availability.\r\r\n         Starting OpenSSH
+  Server Key Generation...\r\r\n[\e[32m  OK  \e[0m] Reached target Network is Online.\r\r\n
+  \        Starting System Logging Service...\r\r\n[\e[32m  OK  \e[0m] Started amazon-ssm-agent.\r\r\n
+  \        Starting Notify NFS peers of a restart...\r\r\n         Starting Dynamically
+  Generate Message Of The Day...\r\r\n         Starting Finds and configures elastic
+  network interfaces...\r\r\n         Starting Apply the settings specified in cloud-config...\r\r\n
+  \        Starting Permit User Sessions...\r\r\n[\e[32m  OK  \e[0m] Started Notify
+  NFS peers of a restart.\r\r\n[\e[32m  OK  \e[0m] Started Permit User Sessions.\r\r\n[\e[32m
+  \ OK  \e[0m] Started System Logging Service.\r\r\n[\e[32m  OK  \e[0m] Started Finds
+  and configures elastic network interfaces.\r\r\n         Starting Wait for Plymouth
+  Boot Screen to Quit...\r\r\n[\e[32m  OK  \e[0m] Started Job spooling tools.\r\r\n
+  \        Starting Terminate Plymouth Boot Screen...\r\r\n[\e[32m  OK  \e[0m] Started
+  Command Scheduler.\r\r\n[    8.711581] cloud-init[3132]: Cloud-init v. 19.3-46.amzn2.0.1
+  running 'modules:config' at Wed, 11 Oct 2023 18:40:51 +0000. Up 8.53 seconds.\r\n[
+  \   9.889587] cloud-init[3132]: Loaded plugins: extras_suggestions, langpacks, priorities,
+  update-motd\r\n2023/10/11 18:40:53Z: Amazon SSM Agent v3.2.1377.0 is running\n2023/10/11
+  18:40:53Z: OsProductName: Amazon Linux\n2023/10/11 18:40:53Z: OsVersion: 2\n\r\nAmazon
+  Linux 2\r\nKernel 5.10.192-183.736.amzn2.x86_64 on an x86_64\r\n\r\nip-10-250-2-51
+  login: [   40.539268] cloud-init[3132]: --> amazon-ssm-agent-3.2.1377.0-1.amzn2.x86_64
+  from installed removed (updateinfo)\n[   40.563682] cloud-init[3132]: --> ec2-hibinit-agent-1.0.2-5.amzn2.noarch
+  from installed removed (updateinfo)\n[   40.578344] cloud-init[3132]: --> 1:system-release-2-16.amzn2.x86_64
+  from amzn2-core removed (updateinfo)\n[   40.600298] cloud-init[3132]: --> 1:system-release-2-15.amzn2.x86_64
+  from installed removed (updateinfo)\n[   40.619135] cloud-init[3132]: --> expat-2.1.0-15.amzn2.0.2.x86_64
+  from installed removed (updateinfo)\n[   40.638586] cloud-init[3132]: --> mdadm-4.0-5.amzn2.0.3.x86_64
+  from amzn2-core removed (updateinfo)\n[   40.652426] cloud-init[3132]: --> amazon-linux-extras-2.0.1-1.amzn2.noarch
+  from installed removed (updateinfo)\n[   40.669066] cloud-init[3132]: --> amazon-linux-extras-yum-plugin-2.0.1-1.amzn2.noarch
+  from installed removed (updateinfo)\n[   40.689726] cloud-init[3132]: --> amazon-linux-extras-2.0.3-1.amzn2.noarch
+  from amzn2-core removed (updateinfo)\n[   40.708345] cloud-init[3132]: --> ec2-hibinit-agent-1.0.2-6.amzn2.noarch
+  from amzn2-core removed (updateinfo)\n[   40.724141] cloud-init[3132]: --> amazon-linux-extras-yum-plugin-2.0.3-1.amzn2.noarch
+  from amzn2-core removed (updateinfo)\n[   40.740676] cloud-init[3132]: --> mdadm-4.0-5.amzn2.0.2.x86_64
+  from installed removed (updateinfo)\n[   40.757036] cloud-init[3132]: --> libtiff-4.0.3-35.amzn2.0.14.x86_64
+  from installed removed (updateinfo)\n[   40.781674] cloud-init[3132]: --> expat-2.1.0-15.amzn2.0.3.x86_64
+  from amzn2-core removed (updateinfo)\n[   40.800315] cloud-init[3132]: --> libtiff-4.0.3-35.amzn2.0.16.x86_64
+  from amzn2-core removed (updateinfo)\n[   40.811360] cloud-init[3132]: --> amazon-ssm-agent-3.2.1630.0-1.amzn2.x86_64
+  from amzn2-core removed (updateinfo)\n[   40.832293] cloud-init[3132]: 15 package(s)
+  needed (+0 related) for security, out of 23 available\n[   40.837390] cloud-init[3132]:
+  Resolving Dependencies\n[   40.850620] cloud-init[3132]: --> Running transaction
+  check\n[   40.857890] cloud-init[3132]: ---> Package bind-export-libs.x86_64 32:9.11.4-26.P2.amzn2.13.4
+  will be updated\n[   40.872364] cloud-init[3132]: ---> Package bind-export-libs.x86_64
+  32:9.11.4-26.P2.amzn2.13.5 will be an update\n[   40.888325] cloud-init[3132]: --->
+  Package bind-libs.x86_64 32:9.11.4-26.P2.amzn2.13.4 will be updated\n[   40.903947]
+  cloud-init[3132]: ---> Package bind-libs.x86_64 32:9.11.4-26.P2.amzn2.13.5 will
+  be an update\n[   40.913021] cloud-init[3132]: ---> Package bind-libs-lite.x86_64
+  32:9.11.4-26.P2.amzn2.13.4 will be updated\n[   40.934366] cloud-init[3132]: --->
+  Package bind-libs-lite.x86_64 32:9.11.4-26.P2.amzn2.13.5 will be an update\n[   40.948320]
+  cloud-init[3132]: ---> Package bind-license.noarch 32:9.11.4-26.P2.amzn2.13.4 will
+  be updated\n[   40.961108] cloud-init[3132]: ---> Package bind-license.noarch 32:9.11.4-26.P2.amzn2.13.5
+  will be an update\n[   40.976410] cloud-init[3132]: ---> Package bind-utils.x86_64
+  32:9.11.4-26.P2.amzn2.13.4 will be updated\n[   40.988286] cloud-init[3132]: --->
+  Package bind-utils.x86_64 32:9.11.4-26.P2.amzn2.13.5 will be an update\n[   41.004252]
+  cloud-init[3132]: ---> Package curl.x86_64 0:8.2.1-1.amzn2.0.3 will be updated\n[
+  \  41.014812] cloud-init[3132]: ---> Package curl.x86_64 0:8.3.0-1.amzn2.0.4 will
+  be an update\n[   41.028243] cloud-init[3132]: ---> Package kernel-tools.x86_64
+  0:5.10.192-183.736.amzn2 will be updated\n[   41.042858] cloud-init[3132]: --->
+  Package kernel-tools.x86_64 0:5.10.196-185.743.amzn2 will be an update\n[   41.064309]
+  cloud-init[3132]: ---> Package libcurl.x86_64 0:8.2.1-1.amzn2.0.3 will be updated\n[
+  \  41.076302] cloud-init[3132]: ---> Package libcurl.x86_64 0:8.3.0-1.amzn2.0.4
+  will be an update\n[   41.092310] cloud-init[3132]: ---> Package python-pillow.x86_64
+  0:2.0.0-23.gitd1c6db8.amzn2.0.7 will be updated\n[   41.104296] cloud-init[3132]:
+  ---> Package python-pillow.x86_64 0:2.0.0-23.gitd1c6db8.amzn2.0.8 will be an update\n[
+  \  41.116398] cloud-init[3132]: ---> Package vim-common.x86_64 2:9.0.1592-1.amzn2.0.1
+  will be updated\n[   41.136341] cloud-init[3132]: ---> Package vim-common.x86_64
+  2:9.0.1882-1.amzn2.0.1 will be an update\n[   41.152282] cloud-init[3132]: --->
+  Package vim-data.noarch 2:9.0.1592-1.amzn2.0.1 will be updated\n[   41.164282] cloud-init[3132]:
+  ---> Package vim-data.noarch 2:9.0.1882-1.amzn2.0.1 will be an update\n[   41.180256]
+  cloud-init[3132]: ---> Package vim-enhanced.x86_64 2:9.0.1592-1.amzn2.0.1 will be
+  updated\n[   41.196257] cloud-init[3132]: ---> Package vim-enhanced.x86_64 2:9.0.1882-1.amzn2.0.1
+  will be an update\n[   41.208247] cloud-init[3132]: ---> Package vim-filesystem.noarch
+  2:9.0.1592-1.amzn2.0.1 will be updated\n[   41.220245] cloud-init[3132]: ---> Package
+  vim-filesystem.noarch 2:9.0.1882-1.amzn2.0.1 will be an update\n[   41.236292] cloud-init[3132]:
+  ---> Package vim-minimal.x86_64 2:9.0.1592-1.amzn2.0.1 will be updated\n[   41.248260]
+  cloud-init[3132]: ---> Package vim-minimal.x86_64 2:9.0.1882-1.amzn2.0.1 will be
+  an update\n[   41.264388] cloud-init[3132]: ---> Package xxd.x86_64 2:9.0.1592-1.amzn2.0.1
+  will be updated\n[   41.276270] cloud-init[3132]: ---> Package xxd.x86_64 2:9.0.1882-1.amzn2.0.1
+  will be an update\n[   41.582208] cloud-init[3132]: --> Finished Dependency Resolution\n[
+  \  41.630701] cloud-init[3132]: Dependencies Resolved\n[   41.641197] cloud-init[3132]:
+  ================================================================================\n[
+  \  41.650538] cloud-init[3132]: Package        Arch   Version                     Repository
+  \             Size\n[   41.660041] cloud-init[3132]: ================================================================================\n[
+  \  41.669806] cloud-init[3132]: Updating:\n[   41.674593] cloud-init[3132]: bind-export-libs\n[
+  \  41.678994] cloud-init[3132]: x86_64 32:9.11.4-26.P2.amzn2.13.5  amzn2-core             1.1
+  M\n[   41.688191] cloud-init[3132]: bind-libs      x86_64 32:9.11.4-26.P2.amzn2.13.5
+  \ amzn2-core             159 k\n[   41.697720] cloud-init[3132]: bind-libs-lite
+  x86_64 32:9.11.4-26.P2.amzn2.13.5  amzn2-core             1.1 M\n[   41.707567]
+  cloud-init[3132]: bind-license   noarch 32:9.11.4-26.P2.amzn2.13.5  amzn2-core              92
+  k\n[   41.717533] cloud-init[3132]: bind-utils     x86_64 32:9.11.4-26.P2.amzn2.13.5
+  \ amzn2-core             261 k\n[   41.727719] cloud-init[3132]: curl           x86_64
+  8.3.0-1.amzn2.0.4           amzn2-core             377 k\n[   41.737299] cloud-init[3132]:
+  kernel-tools   x86_64 5.10.196-185.743.amzn2      amzn2extra-kernel-5.10 202 k\n[
+  \  41.748739] cloud-init[3132]: libcurl        x86_64 8.3.0-1.amzn2.0.4           amzn2-core
+  \            352 k\n[   41.758491] cloud-init[3132]: python-pillow  x86_64 2.0.0-23.gitd1c6db8.amzn2.0.8\n[
+  \  41.766253] cloud-init[3132]: amzn2-core             444 k\n[   41.772036] cloud-init[3132]:
+  vim-common     x86_64 2:9.0.1882-1.amzn2.0.1      amzn2-core             8.0 M\n[
+  \  41.782196] cloud-init[3132]: vim-data       noarch 2:9.0.1882-1.amzn2.0.1      amzn2-core
+  \             82 k\n[   41.791166] cloud-init[3132]: vim-enhanced   x86_64 2:9.0.1882-1.amzn2.0.1
+  \     amzn2-core             1.6 M\n[   41.799985] cloud-init[3132]: vim-filesystem
+  noarch 2:9.0.1882-1.amzn2.0.1      amzn2-core              76 k\n[   41.809571]
+  cloud-init[3132]: vim-minimal    x86_64 2:9.0.1882-1.amzn2.0.1      amzn2-core             750
+  k\n[   41.818749] cloud-init[3132]: xxd            x86_64 2:9.0.1882-1.amzn2.0.1
+  \     amzn2-core              93 k\n[   41.827963] cloud-init[3132]: Transaction
+  Summary\n[   41.832880] cloud-init[3132]: ================================================================================\n[
+  \  41.850307] cloud-init[3132]: Upgrade  15 Packages\n[   41.859668] cloud-init[3132]:
+  Total download size: 15 M\n[   41.873459] cloud-init[3132]: Downloading packages:\n[
+  \  41.886335] cloud-init[3132]: Delta RPMs disabled because /usr/bin/applydeltarpm
+  not installed.\n[   42.588103] cloud-init[3132]: --------------------------------------------------------------------------------\n[
+  \  42.604380] cloud-init[3132]: Total                                               20
+  MB/s |  15 MB  00:00\n[   42.682581] cloud-init[3132]: Running transaction check\n[
+  \  42.747894] cloud-init[3132]: Running transaction test\n[   43.135039] cloud-init[3132]:
+  Transaction test succeeded\n[   43.148061] cloud-init[3132]: Running transaction\n[
+  \  43.797118] cloud-init[3132]: Updating   : 32:bind-license-9.11.4-26.P2.amzn2.13.5.noarch
+  \             1/30\n2023/10/11 18:41:27Z: Amazon SSM Agent v3.2.1705.0 is running\n2023/10/11
+  18:41:27Z: OsProductName: Amazon Linux\n2023/10/11 18:41:27Z: OsVersion: 2\n[   44.338964]
+  cloud-init[3132]: Updating   : 32:bind-libs-lite-9.11.4-26.P2.amzn2.13.5.x86_64
+  \           2/30\n[   44.375005] cloud-init[3132]: Updating   : 2:vim-data-9.0.1882-1.amzn2.0.1.noarch
+  \                     3/30\n[   44.444370] cloud-init[3132]: Updating   : 32:bind-libs-9.11.4-26.P2.amzn2.13.5.x86_64
+  \                4/30\n[   44.482165] cloud-init[3132]: Updating   : libcurl-8.3.0-1.amzn2.0.4.x86_64
+  \                           5/30\n[   44.509960] cloud-init[3132]: Updating   :
+  2:xxd-9.0.1882-1.amzn2.0.1.x86_64                           6/30\n[   45.999070]
+  cloud-init[3132]: Updating   : 2:vim-filesystem-9.0.1882-1.amzn2.0.1.noarch                7/30\n[
+  \  46.310091] cloud-init[3132]: Updating   : 2:vim-common-9.0.1882-1.amzn2.0.1.x86_64
+  \                   8/30\n[   46.376213] cloud-init[3132]: Updating   : 2:vim-enhanced-9.0.1882-1.amzn2.0.1.x86_64
+  \                 9/30\n[   46.428353] cloud-init[3132]: Updating   : curl-8.3.0-1.amzn2.0.4.x86_64
+  \                             10/30\n[   46.530343] cloud-init[3132]: Updating   :
+  32:bind-utils-9.11.4-26.P2.amzn2.13.5.x86_64               11/30\n[   46.650697]
+  cloud-init[3132]: Updating   : 2:vim-minimal-9.0.1882-1.amzn2.0.1.x86_64                  12/30\n[
+  \  46.705667] cloud-init[3132]: Updating   : python-pillow-2.0.0-23.gitd1c6db8.amzn2.0.8.x86_64
+  \        13/30\n[   46.873294] cloud-init[3132]: Updating   : kernel-tools-5.10.196-185.743.amzn2.x86_64
+  \                14/30\n[   46.907212] cloud-init[3132]: Updating   : 32:bind-export-libs-9.11.4-26.P2.amzn2.13.5.x86_64
+  \        15/30\n[   46.935964] cloud-init[3132]: Cleanup    : 32:bind-utils-9.11.4-26.P2.amzn2.13.4.x86_64
+  \              16/30\n[   46.968799] cloud-init[3132]: Cleanup    : 32:bind-libs-9.11.4-26.P2.amzn2.13.4.x86_64
+  \               17/30\n[   46.999822] cloud-init[3132]: Cleanup    : 32:bind-libs-lite-9.11.4-26.P2.amzn2.13.4.x86_64
+  \          18/30\n[   47.025493] cloud-init[3132]: Cleanup    : curl-8.2.1-1.amzn2.0.3.x86_64
+  \                             19/30\n[   47.061817] cloud-init[3132]: Cleanup    :
+  2:vim-enhanced-9.0.1592-1.amzn2.0.1.x86_64                 20/30\n[   47.118532]
+  cloud-init[3132]: Cleanup    : 2:vim-common-9.0.1592-1.amzn2.0.1.x86_64                   21/30\n[
+  \  47.151450] cloud-init[3132]: Cleanup    : 2:vim-minimal-9.0.1592-1.amzn2.0.1.x86_64
+  \                 22/30\n[   47.174935] cloud-init[3132]: Cleanup    : 2:vim-data-9.0.1592-1.amzn2.0.1.noarch
+  \                    23/30\n[   47.198948] cloud-init[3132]: Cleanup    : 2:vim-filesystem-9.0.1592-1.amzn2.0.1.noarch
+  \              24/30\n[   47.219729] cloud-init[3132]: Cleanup    : 32:bind-license-9.11.4-26.P2.amzn2.13.4.noarch
+  \            25/30\n[   47.247801] cloud-init[3132]: Cleanup    : python-pillow-2.0.0-23.gitd1c6db8.amzn2.0.7.x86_64
+  \        26/30\n[   47.271665] cloud-init[3132]: Cleanup    : 2:xxd-9.0.1592-1.amzn2.0.1.x86_64
+  \                         27/30\n[   47.303320] cloud-init[3132]: Cleanup    : libcurl-8.2.1-1.amzn2.0.3.x86_64
+  \                          28/30\n[   47.336597] cloud-init[3132]: Cleanup    :
+  kernel-tools-5.10.192-183.736.amzn2.x86_64                 29/30\n[   47.388095]
+  cloud-init[3132]: Cleanup    : 32:bind-export-libs-9.11.4-26.P2.amzn2.13.4.x86_64
+  \        30/30\n[   47.412078] cloud-init[3132]: Verifying  : 2:vim-minimal-9.0.1882-1.amzn2.0.1.x86_64
+  \                  1/30\n[   47.427401] cloud-init[3132]: Verifying  : 32:bind-libs-9.11.4-26.P2.amzn2.13.5.x86_64
+  \                2/30\n[   47.443877] cloud-init[3132]: Verifying  : 2:vim-data-9.0.1882-1.amzn2.0.1.noarch
+  \                     3/30\n[   47.460084] cloud-init[3132]: Verifying  : 2:vim-common-9.0.1882-1.amzn2.0.1.x86_64
+  \                   4/30\n[   47.476089] cloud-init[3132]: Verifying  : 2:vim-enhanced-9.0.1882-1.amzn2.0.1.x86_64
+  \                 5/30\n[   47.495351] cloud-init[3132]: Verifying  : 32:bind-export-libs-9.11.4-26.P2.amzn2.13.5.x86_64
+  \         6/30\n[   47.508081] cloud-init[3132]: Verifying  : kernel-tools-5.10.196-185.743.amzn2.x86_64
+  \                 7/30\n[   47.524655] cloud-init[3132]: Verifying  : 32:bind-libs-lite-9.11.4-26.P2.amzn2.13.5.x86_64
+  \           8/30\n[   47.540090] cloud-init[3132]: Verifying  : 2:vim-filesystem-9.0.1882-1.amzn2.0.1.noarch
+  \               9/30\n[   47.561602] cloud-init[3132]: Verifying  : 2:xxd-9.0.1882-1.amzn2.0.1.x86_64
+  \                         10/30\n[   47.575479] cloud-init[3132]: Verifying  : 32:bind-license-9.11.4-26.P2.amzn2.13.5.noarch
+  \            11/30\n[   47.591224] cloud-init[3132]: Verifying  : libcurl-8.3.0-1.amzn2.0.4.x86_64
+  \                          12/30\n[   47.607887] cloud-init[3132]: Verifying  :
+  python-pillow-2.0.0-23.gitd1c6db8.amzn2.0.8.x86_64         13/30\n[   47.624094]
+  cloud-init[3132]: Verifying  : 32:bind-utils-9.11.4-26.P2.amzn2.13.5.x86_64               14/30\n[
+  \  47.635964] cloud-init[3132]: Verifying  : curl-8.3.0-1.amzn2.0.4.x86_64                              15/30\n[
+  \  47.657226] cloud-init[3132]: Verifying  : 2:vim-minimal-9.0.1592-1.amzn2.0.1.x86_64
+  \                 16/30\n[   47.668255] cloud-init[3132]: Verifying  : 32:bind-libs-lite-9.11.4-26.P2.amzn2.13.4.x86_64
+  \          17/30\n[   47.684374] cloud-init[3132]: Verifying  : kernel-tools-5.10.192-183.736.amzn2.x86_64
+  \                18/30\n[   47.700390] cloud-init[3132]: Verifying  : 32:bind-license-9.11.4-26.P2.amzn2.13.4.noarch
+  \            19/30\n[   47.716356] cloud-init[3132]: Verifying  : python-pillow-2.0.0-23.gitd1c6db8.amzn2.0.7.x86_64
+  \        20/30\n[   47.728281] cloud-init[3132]: Verifying  : 32:bind-utils-9.11.4-26.P2.amzn2.13.4.x86_64
+  \              21/30\n[   47.744316] cloud-init[3132]: Verifying  : 2:xxd-9.0.1592-1.amzn2.0.1.x86_64
+  \                         22/30\n[   47.755191] cloud-init[3132]: Verifying  : libcurl-8.2.1-1.amzn2.0.3.x86_64
+  \                          23/30\n[   47.772496] cloud-init[3132]: Verifying  :
+  2:vim-filesystem-9.0.1592-1.amzn2.0.1.noarch               24/30\n[   47.785368]
+  cloud-init[3132]: Verifying  : 2:vim-data-9.0.1592-1.amzn2.0.1.noarch                     25/30\n[
+  \  47.791803] cloud-init[3132]: Verifying  : 32:bind-libs-9.11.4-26.P2.amzn2.13.4.x86_64
+  \               26/30\n[   47.799296] cloud-init[3132]: Verifying  : curl-8.2.1-1.amzn2.0.3.x86_64
+  \                             27/30\n[   47.812355] cloud-init[3132]: Verifying
+  \ : 2:vim-common-9.0.1592-1.amzn2.0.1.x86_64                   28/30\n[   47.817317]
+  cloud-init[3132]: Verifying  : 32:bind-export-libs-9.11.4-26.P2.amzn2.13.4.x86_64
+  \        29/30\n[   47.838645] cloud-init[3132]: Verifying  : 2:vim-enhanced-9.0.1592-1.amzn2.0.1.x86_64
+  \                30/30\n[   47.848218] cloud-init[3132]: Updated:\n[   47.850381]
+  cloud-init[3132]: bind-export-libs.x86_64 32:9.11.4-26.P2.amzn2.13.5\n[   47.864356]
+  cloud-init[3132]: bind-libs.x86_64 32:9.11.4-26.P2.amzn2.13.5\n[   47.872279] cloud-init[3132]:
+  bind-libs-lite.x86_64 32:9.11.4-26.P2.amzn2.13.5\n[   47.876276] cloud-init[3132]:
+  bind-license.noarch 32:9.11.4-26.P2.amzn2.13.5\n[   47.885532] cloud-init[3132]:
+  bind-utils.x86_64 32:9.11.4-26.P2.amzn2.13.5\n[   47.896899] cloud-init[3132]: curl.x86_64
+  0:8.3.0-1.amzn2.0.4\n[   47.901285] cloud-init[3132]: kernel-tools.x86_64 0:5.10.196-185.743.amzn2\n[
+  \  47.912406] cloud-init[3132]: libcurl.x86_64 0:8.3.0-1.amzn2.0.4\n[   47.920611]
+  cloud-init[3132]: python-pillow.x86_64 0:2.0.0-23.gitd1c6db8.amzn2.0.8\n[   47.933047]
+  cloud-init[3132]: vim-common.x86_64 2:9.0.1882-1.amzn2.0.1\n[   47.939154] cloud-init[3132]:
+  vim-data.noarch 2:9.0.1882-1.amzn2.0.1\n[   47.949349] cloud-init[3132]: vim-enhanced.x86_64
+  2:9.0.1882-1.amzn2.0.1\n[   47.959957] cloud-init[3132]: vim-filesystem.noarch 2:9.0.1882-1.amzn2.0.1\n[
+  \  47.972512] cloud-init[3132]: vim-minimal.x86_64 2:9.0.1882-1.amzn2.0.1\n[   47.982344]
+  cloud-init[3132]: xxd.x86_64 2:9.0.1882-1.amzn2.0.1\n[   47.991002] cloud-init[3132]:
+  Complete!\n[   49.156376] cloud-init[3465]: Cloud-init v. 19.3-46.amzn2.0.1 running
+  'modules:final' at Wed, 11 Oct 2023 18:41:32 +0000. Up 49.00 seconds.\n[   51.223761]
+  cloud-init[3465]: Error occurred during build: Command 001 failed\n[   51.888578]
+  cloud-init[3465]: 2023-10-11 18:41:33,072 [DEBUG] CloudFormation client initialized
+  with endpoint https://cloudformation.us-west-2.amazonaws.com\nci-info: no authorized
+  ssh keys fingerprints found for user ec2-user.\n[   51.916477] cloud-init[3465]:
+  2023-10-11 18:41:33,074 [DEBUG] Describing resource logginginstance838754BA7cf53790c2ed9e1d
+  in stack sysops-stack\n[   51.944514] cloud-init[3465]: 2023-10-11 18:41:33,166
+  [INFO] -----------------------Starting build-----------------------\n[   51.968366]
+  cloud-init[3465]: 2023-10-11 18:41:33,166 [DEBUG] Not setting a reboot trigger as
+  scheduling support is not available\n[   51.988404] cloud-init[3465]: 2023-10-11
+  18:41:33,168 [INFO] Running configSets: default\n[   52.000991] cloud-init[3465]:
+  2023-10-11 18:41:33,169 [INFO] Running configSet default\n<14>Oct 11 18:41:35 ec2:
+  \n<14>Oct 11 18:41:35 ec2: #############################################################\n[
+  \  52.020344] cloud-init[3465]: 2023-10-11 18:41:33,170 [INFO] Running config config\n<14>Oct
+  11 18:41:35 ec2: -----BEGIN SSH HOST KEY FINGERPRINTS-----\n<14>Oct 11 18:41:35
+  ec2: 256 SHA256:Is7DY8RY+2luunW2z2D0GuSfU7opktdAY/76mt4aQoc no comment (ECDSA)\n[
+  \  52.036306] cloud-init[3465]: 2023-10-11 18:41:33,170 [DEBUG] Querying for version
+  of package nsolid-fermium\n<14>Oct 11 18:41:35 ec2: 256 SHA256:PwkveBINypR6LeDccWo+sZmAks1TMzZsPRpZDFkigX4
+  no comment (ED25519)\n[   52.048365] cloud-init[3465]: 2023-10-11 18:41:33,250 [DEBUG]
+  RPM stdout:\n<14>Oct 11 18:41:35 ec2: 2048 SHA256:2GzUecT9J/2YCDlvYO+5pwJZOVYNGJLESSMZF2oTulA
+  no comment (RSA)\n[   52.056037] cloud-init[3465]: 2023-10-11 18:41:33,251 [DEBUG]
+  RPM stderr: error: open of nsolid-fermium failed: No such file or directory\n<14>Oct
+  11 18:41:35 ec2: -----END SSH HOST KEY FINGERPRINTS-----\n<14>Oct 11 18:41:35 ec2:
+  #############################################################\n[   52.076336] cloud-init[3465]:
+  2023-10-11 18:41:33,251 [ERROR] Could not determine package contained by rpm at
+  nsolid-fermium\n-----BEGIN SSH HOST KEY KEYS-----\necdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFXu/kwgyRXgsEUyYIsAxiufuD2iz5lVXZeJxITlIcl8FJ653d7SULYTkfEPeHlWGwbZBflMKchhmuKKAEeyhdM=
+  \n[   52.092289] cloud-init[3465]: 2023-10-11 18:41:33,251 [DEBUG] Skipping RPM
+  at nsolid-fermium as it is already installed\n[   52.104048] cloud-init[3465]: 2023-10-11
+  18:41:33,251 [DEBUG] Querying for version of package nsolid-console\nssh-ed25519
+  AAAAC3NzaC1lZDI1NTE5AAAAIO9jcDJMbHnAMX9TV6uOHTHpscO4ZORjJNjTsrKhY8Ix \nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxyI8ONocBIiJAgJfXM4MGfnp9jiLfG5dYRC+iatLnkKGUEgGX4Y1GOXYaSO3oWrFL5LLHz4KauUQCc/QV4GVfzd0Tlpgp1+8W9Bc2DgV+5KCWq2Pg24cNUiwesHGTapUYdQ6yat9pVf5pgxAcTt4X2K966oPhid/sKAtRhv9BLSbBtUZWI9RlN//7m/78qTTVcPB9pmrmTxW8bfBR4jCN1CS8AlBx9abxoZxg6SwaSjRD4QKmFxefXLH8CgzjEosWxK7F70qFcDzdI5el/TW4glAIdXnO0fB/CUB8wFMUZ0r1kmCj5aiqcd3bw8TghvzaZAjL+Y+YKzVdThDioNo7
+  \n[   52.128297] cloud-init[3465]: 2023-10-11 18:41:33,330 [DEBUG] RPM stdout:\n[
+  \  52.136036] cloud-init[3465]: 2023-10-11 18:41:33,331 [DEBUG] RPM stderr: error:
+  open of nsolid-console failed: No such file or directory\n[   52.144924] cloud-init[3465]:
+  2023-10-11 18:41:33,331 [ERROR] Could not determine package contained by rpm at
+  nsolid-console\n[   52.156255] cloud-init[3465]: 2023-10-11 18:41:33,331 [DEBUG]
+  Skipping RPM at nsolid-console as it is already installed\n-----END SSH HOST KEY
+  KEYS-----\n[   52.172286] cloud-init[3465]: 2023-10-11 18:41:33,331 [INFO] All RPMs
+  were already installed\n[   52.184344] cloud-init[3465]: 2023-10-11 18:41:33,331
+  [DEBUG] No groups specified\n[   52.196226] cloud-init[3465]: 2023-10-11 18:41:33,331
+  [DEBUG] No users specified\n[   52.208047] cloud-init[3465]: 2023-10-11 18:41:33,331
+  [DEBUG] No sources specified\n[   52.220186] cloud-init[3465]: 2023-10-11 18:41:33,331
+  [DEBUG] No files specified\n[   52.232044] cloud-init[3465]: 2023-10-11 18:41:33,331
+  [DEBUG] Running command 000\n[   52.244047] cloud-init[3465]: 2023-10-11 18:41:33,331
+  [DEBUG] No test for command 000\n[   52.255529] cloud-init[3465]: 2023-10-11 18:41:34,304
+  [INFO] Command 000 succeeded\n[   52.268258] cloud-init[3465]: 2023-10-11 18:41:34,304
+  [DEBUG] Command 000 output:\n[   52.276188] cloud-init[3465]: ## Installing the
+  NodeSource N|Solid 4.x repo...\n[   52.292047] cloud-init[3465]: ## Inspecting system...\n[
+  \  52.300070] cloud-init[3465]: + rpm -q --whatprovides redhat-release || rpm -q
+  --whatprovides centos-release || rpm -q --whatprovides cloudlinux-release || rpm
+  -q --whatprovides sl-release\n[   52.312206] cloud-init[3465]: + uname -m\n[   52.320043]
+  cloud-init[3465]: ## Confirming \"el7-x86_64\" is supported...\n[   52.323134] cloud-init[3465]:
+  + curl -sLf -o /dev/null 'http://nsolid-rpm.nodesource.com/nsolid_4.x/el/7/x86_64/nodesource-nsolid-4.x-release-el7-1.noarch.rpm'\n[
+  \  52.336176] cloud-init[3465]: ## Downloading release setup RPM...\n[   52.344046]
+  cloud-init[3465]: + mktemp\n[   52.345987] cloud-init[3465]: + curl -sL -o '/tmp/tmp.glb4yEIDlr'
+  'http://nsolid-rpm.nodesource.com/nsolid_4.x/el/7/x86_64/nodesource-nsolid-4.x-release-el7-1.noarch.rpm'\n[
+  \  52.360189] cloud-init[3465]: ## Installing release setup RPM...\n[   52.368046]
+  cloud-init[3465]: + rpm -i --nosignature --force '/tmp/tmp.glb4yEIDlr'\n[   52.376045]
+  cloud-init[3465]: ## Cleaning up...\n[   52.378252] cloud-init[3465]: + rm -f '/tmp/tmp.glb4yEIDlr'\n[
+  \  52.384207] cloud-init[3465]: ## Checking for existing installations...\n[   52.392047]
+  cloud-init[3465]: + rpm -qa 'node|npm' | grep -v nodesource\n[   52.395068] cloud-init[3465]:
+  2023-10-11 18:41:34,304 [DEBUG] Running command 001\n[   52.404180] cloud-init[3465]:
+  2023-10-11 18:41:34,305 [DEBUG] No test for command 001\n[   52.412182] cloud-init[3465]:
+  2023-10-11 18:41:34,310 [ERROR] Command 001 (npm install -g redis-cli) failed\n[
+  \  52.420180] cloud-init[3465]: 2023-10-11 18:41:34,310 [DEBUG] Command 001 output:
+  /bin/sh: npm: command not found\n[   52.436045] cloud-init[3465]: 2023-10-11 18:41:34,310
+  [ERROR] Error encountered during build of config: Command 001 failed\n[   52.444301]
+  cloud-init[3465]: Traceback (most recent call last):\n[   52.452043] cloud-init[3465]:
+  File \"/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py\", line 579,
+  in run_config\n[   52.464198] cloud-init[3465]: CloudFormationCarpenter(config,
+  self._auth_config, self.strict_mode).build(worklog)\n[   52.476184] cloud-init[3465]:
+  File \"/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py\", line 278,
+  in build\n[   52.484182] cloud-init[3465]: self._config.commands)\n[   52.488050]
+  cloud-init[3465]: File \"/usr/lib/python3.7/site-packages/cfnbootstrap/command_tool.py\",
+  line 127, in apply\n[   52.500190] cloud-init[3465]: raise ToolError(u\"Command
+  %s failed\" % name)\n[   52.508043] cloud-init[3465]: cfnbootstrap.construction_errors.ToolError:
+  Command 001 failed\n[   52.516189] cloud-init[3465]: 2023-10-11 18:41:34,313 [ERROR]
+  -----------------------BUILD FAILED!------------------------\n[   52.528205] cloud-init[3465]:
+  2023-10-11 18:41:34,313 [ERROR] Unhandled exception during build: Command 001 failed\n[
+  \  52.536270] cloud-init[3465]: Traceback (most recent call last):\n[   52.544049]
+  cloud-init[3465]: File \"/opt/aws/bin/cfn-init\", line 181, in <module>\n[   52.552046]
+  cloud-init[3465]: worklog.build(metadata, configSets, strict_mode)\n[   52.556056]
+  cloud-init[3465]: File \"/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py\",
+  line 137, in build\n[   52.568185] cloud-init[3465]: Contractor(metadata, strict_mode).build(configSets,
+  self)\n[   52.576043] cloud-init[3465]: File \"/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py\",
+  line 567, in build\n[   52.584205] cloud-init[3465]: self.run_config(config, worklog)\n[
+  \  52.592043] cloud-init[3465]: File \"/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py\",
+  line 579, in run_config\n[   52.604279] cloud-init[3465]: CloudFormationCarpenter(config,
+  self._auth_config, self.strict_mode).build(worklog)\n[   52.612175] cloud-init[3465]:
+  File \"/usr/lib/python3.7/site-packages/cfnbootstrap/construction.py\", line 278,
+  in build\n[   52.620191] cloud-init[3465]: self._config.commands)\n[   52.628044]
+  cloud-init[3465]: File \"/usr/lib/python3.7/site-packages/cfnbootstrap/command_tool.py\",
+  line 127, in apply\n[   52.636188] cloud-init[3465]: raise ToolError(u\"Command
+  %s failed\" % name)\n[   52.644044] cloud-init[3465]: cfnbootstrap.construction_errors.ToolError:
+  Command 001 failed\n[   52.652044] cloud-init[3465]: 2023-10-11 18:41:34,813 [DEBUG]
+  CloudFormation client initialized with endpoint https://cloudformation.us-west-2.amazonaws.com\n[
+  \  52.664276] cloud-init[3465]: 2023-10-11 18:41:34,818 [DEBUG] Signaling resource
+  logginginstance838754BA7cf53790c2ed9e1d in stack sysops-stack with unique ID i-09e73ee9e40c9f948
+  and status FAILURE\n[   52.684207] cloud-init[3465]: ci-info: no authorized ssh
+  keys fingerprints found for user ec2-user.\n[   52.692191] cloud-init[3465]: Cloud-init
+  v. 19.3-46.amzn2.0.1 finished at Wed, 11 Oct 2023 18:41:35 +0000. Datasource DataSourceEc2.
+  \ Up 52.16 seconds\n[\e[32m  OK  \e[0m] Started Show Plymouth Power Off Screen.\r\r\n[\e[32m
+  \ OK  \e[0m] Stopped Postfix Mail Transport Agent.\r\r\n[   \e[31m*\e[1;31m*\e[0m\e[31m*\e[0m]
+  A stop job is running for amazon-ssm-agent (5s / 1min 30s)\r\e[K[  \e[31m*\e[1;31m*\e[0m\e[31m*
+  \e[0m] A stop job is running for amazon-ssm-agent (5s / 1min 30s)\r\e[K[ \e[31m*\e[1;31m*\e[0m\e[31m*
+  \ \e[0m] A stop job is running for amazon-ssm-agent (6s / 1min 30s)\r\e[K[\e[31m*\e[1;31m*\e[0m\e[31m*
+  \  \e[0m] A stop job is running for amazon-ssm-agent (6s / 1min 30s)\r\e[K[\e[32m
+  \ OK  \e[0m] Stopped amazon-ssm-agent.\r\r\n[\e[32m  OK  \e[0m] Stopped target Network
+  is Online.\r\r\n[\e[32m  OK  \e[0m] Stopped target Network.\r\r\n         Stopping
+  LSB: Bring up/down networking...\r\r\n[\e[32m  OK  \e[0m] Stopped LSB: Bring up/down
+  networking.\r\r\n[\e[32m  OK  \e[0m] Stopped target Network (Pre).\r\r\n[\e[32m
+  \ OK  \e[0m] Stopped Initial cloud-init job (pre-networking).\r\r\n[\e[32m  OK  \e[0m]
+  Stopped target Basic System.\r\r\n[\e[32m  OK  \e[0m] Stopped Forward Password Requests
+  to Plymouth Directory Watch.\r\r\n[\e[32m  OK  \e[0m] Stopped target Paths.\r\r\n[\e[32m
+  \ OK  \e[0m] Stopped Forward Password Requests to Wall Directory Watch.\r\r\n[\e[32m
+  \ OK  \e[0m] Stopped Flexible branding.\r\r\n[\e[32m  OK  \e[0m] Stopped target
+  Slices.\r\r\n[\e[32m  OK  \e[0m] Removed slice User and Session Slice.\r\r\n[\e[32m
+  \ OK  \e[0m] Stopped target Sockets.\r\r\n[\e[32m  OK  \e[0m] Closed D-Bus System
+  Message Bus Socket.\r\r\n[\e[32m  OK  \e[0m] Closed RPCbind Server Activation Socket.\r\r\n[\e[32m
+  \ OK  \e[0m] Stopped target System Initialization.\r\r\n[\e[32m  OK  \e[0m] Stopped
+  Apply Kernel Variables.\r\r\n[\e[32m  OK  \e[0m] Stopped Setup Virtual Console.\r\r\n[\e[32m
+  \ OK  \e[0m] Stopped target Swap.\r\r\n[\e[32m  OK  \e[0m] Stopped Mark the need
+  to relabel after reboot.\r\r\n[\e[32m  OK  \e[0m] Stopped Commit a transient machine-id
+  on disk.\r\r\n[\e[32m  OK  \e[0m] Stopped Read and set NIS domainname from /etc/sysconfig/network.\r\r\n[\e[32m
+  \ OK  \e[0m] Stopped target Local Encrypted Volumes.\r\r\n         Stopping Security
+  Auditing Service...\r\r\n[\e[32m  OK  \e[0m] Stopped Update is Completed.\r\r\n[
+  \  86.809215] audit: type=1305 audit(1697049729.084:145): op=set audit_pid=0 old=2591
+  auid=4294967295 ses=4294967295 res=1\r\n[   86.828479] audit: type=1130 audit(1697049729.104:146):
+  pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-random-seed comm=\"systemd\"
+  exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'\r\n[
+  \  86.828481] audit: type=1131 audit(1697049729.104:147): pid=1 uid=0 auid=4294967295
+  ses=4294967295 msg='unit=systemd-random-seed comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\"
+  hostname=? addr=? terminal=? res=success'\r\n[   86.869189] audit: type=1130 audit(1697049729.144:148):
+  pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=auditd comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\"
+  hostname=? addr=? terminal=? res=success'\r\n[   86.869191] audit: type=1131 audit(1697049729.144:149):
+  pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=auditd comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\"
+  hostname=? addr=? terminal=? res=success'\r\n[   86.909225] audit: type=1130 audit(1697049729.188:150):
+  pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup comm=\"systemd\"
+  exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'\r\n[
+  \  86.909227] audit: type=1131 audit(1697049729.188:151): pid=1 uid=0 auid=4294967295
+  ses=4294967295 msg='unit=systemd-tmpfiles-setup comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\"
+  hostname=? addr=? terminal=? res=success'\r\n[   86.948441] audit: type=1130 audit(1697049729.224:152):
+  pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-setup-dev
+  comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'\r\n[
+  \  86.948443] audit: type=1131 audit(1697049729.224:153): pid=1 uid=0 auid=4294967295
+  ses=4294967295 msg='unit=systemd-tmpfiles-setup-dev comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\"
+  hostname=? addr=? terminal=? res=success'\r\n[   86.982295] audit: type=1130 audit(1697049729.260:154):
+  pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=rhel-readonly comm=\"systemd\"
+  exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'\r\n[\e[32m
+  \ OK  \e[0m] Stopped Rebuild Hardware Database.\r\r\n[\e[32m  OK  \e[0m] Stopped
+  Rebuild Journal Catalog.\r\r\n[\e[32m  OK  \e[0m] Stopped Load Kernel Modules.\r\r\n
+  \        Stopping Load/Save Random Seed...\r\r\n[\e[32m  OK  \e[0m] Stopped Load/Save
+  Random Seed.\r\r\n[\e[32m  OK  \e[0m] Stopped Security Auditing Service.\r\r\n[\e[32m
+  \ OK  \e[0m] Stopped Create Volatile Files and Directories.\r\r\n[\e[32m  OK  \e[0m]
+  Stopped target Local File Systems.\r\r\n[\e[32m  OK  \e[0m] Stopped target Local
+  File Systems (Pre).\r\r\n         Stopping Monitoring of LVM2 mirrors... dmeventd
+  or progress polling...\r\r\n[\e[32m  OK  \e[0m] Stopped Create Static Device Nodes
+  in /dev.\r\r\n[\e[32m  OK  \e[0m] Stopped Configure read-only root support.\r\r\n[\e[32m
+  \ OK  \e[0m] Stopped Remount Root and Kernel File Systems.\r\r\n[\e[32m  OK  \e[0m]
+  Stopped Monitoring of LVM2 mirrors,...ng dmeventd or progress polling.\r\r\n         Stopping
+  LVM2 metadata daemon...\r\r\n[\e[32m  OK  \e[0m] Stopped LVM2 metadata daemon.\r\r\n[\e[32m
+  \ OK  \e[0m] Reached target Shutdown.\r\r\n[   87.180827] systemd-shutdown[1]: Syncing
+  filesystems and block devices.\r\n[   87.208829] systemd-shutdown[1]: Sending SIGTERM
+  to remaining processes...\r\n[   87.217392] systemd-journald[1778]: Received SIGTERM
+  from PID 1 (systemd-shutdow).\r\n[   87.231344] systemd-shutdown[1]: Sending SIGKILL
+  to remaining processes...\r\n[   87.244041] systemd-shutdown[1]: Unmounting file
+  systems.\r\n[   87.248981] systemd-shutdown[3810]: Remounting '/' read-only in with
+  options 'attr2,inode64,logbufs=8,logbsize=32k,noquota'.\r\n[   87.275882] systemd-shutdown[1]:
+  All filesystems unmounted.\r\n[   87.280557] systemd-shutdown[1]: Deactivating swaps.\r\n[
+  \  87.284943] systemd-shutdown[1]: All swaps deactivated.\r\n[   87.290988] systemd-shutdown[1]:
+  Detaching loop devices.\r\n[   87.296770] systemd-shutdown[1]: All loop devices
+  detached.\r\n[   87.335358] ACPI: Preparing to enter system sleep state S5\r\n[
+  \  87.342041] reboot: Power down\r\n[   87.347531] acpi_power_off called\r\n"
+Timestamp: '2023-10-11T18:42:12+00:00'
